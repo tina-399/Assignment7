@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-image: linear-gradient(rgba(144, 238, 144, 0.884)),
+    url(./pexels-mary-taylor-5896677.jpg);
+}
+
+.todo-container {
+  width: 50vw;
+  box-shadow: 0 0 50px rgba(87, 41, 41, 0.5);
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.todos-heading {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.todo-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  color: brown;
+}
+
+.input {
+  width: 60%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+button {
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+}
